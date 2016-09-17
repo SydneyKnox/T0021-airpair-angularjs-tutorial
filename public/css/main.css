@@ -17,121 +17,30 @@ body {
     padding-bottom: 20px;
 }
 
-.dropdown {
-    cursor:pointer;
+.vertical-align{
+    display:flex;
+    align-items:center;
+    text-align:center;
 }
 
-
-.img-home-portfolio,
-.img-customer,
-.portfolio-item {
-    margin-bottom: 30px;
+.home-banner{
+    background-color: #00B2B9;
 }
 
-.tab-pane {
-    margin-top: 15px;
+.home-banner .img-responsive{
+    height:100%;
+    width:20%;
+    margin: 0 auto;
 }
 
-/* Page Sections */
-.section,
-.section-colored {
-    padding: 50px 0;
+#header {
+    background-color: #555B6E;
 }
 
-.section-colored {
-    background-color: #e1e1e1;
-    /* change this to change the background color of a colored section */
+a{
+    color:#2C2B3C;
 }
 
-.sidebar {
-    margin-top: 40px;
-}
-
-.sidebar ul {
-    border-radius: 5px;
-    padding: 5px;
-    border: 1px solid #cccccc;
-}
-
-/* Half Page Height Carousel Customization */
-.carousel {
-    height: 50%;
-}
-
-.item,
-.active,
-.carousel-inner {
-    height: 100%;
-}
-
-.fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-/* Social Icons Styles */
-.list-social-icons {
-    margin-bottom: 45px;
-}
-
-.tooltip-social a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.facebook-link a:hover {
-    color: #3b5998;
-}
-
-.linkedin-link a:hover {
-    color: #007fb1;
-}
-
-.twitter-link a:hover {
-    color: #39a9e0;
-}
-
-.google-plus-link a:hover {
-    color: #d14836;
-}
-
-/* Service Page Styles */
-.service-icon {
-    font-size: 50px;
-}
-
-/* 404 Page Styles */
-.error-404 {
-    font-size: 8em;
-}
-
-/* Pricing Page Styles */
-.price {
-    font-size: 4em;
-}
-
-.price-cents {
-    vertical-align: super;
-    font-size: 50%;
-}
-
-.price-month {
-    font-size: 35%;
-    font-style: italic;
-}
-
-/* Footer Styles */
-footer {
-    margin: 50px 0;
-}
-
-/* Responsive Styles */
-@media (max-width: 767px) {
-
-    .carousel {
-        height: 70%;
-        /* increases the carousel height so it looks good on phones */
-    }
+a:hover{
+    color:#3E3C54;
 }
